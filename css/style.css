@@ -51,11 +51,18 @@ body {
 
 .btn {
     color: white;
-    background: orange;
+    background: rgb(255, 165, 0);
     padding: 20px;
     text-align: center;
     width: 50%;
     margin: 0 auto;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: rgb(255, 191, 71);
 }
 
 .raise-mallet {
