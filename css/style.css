@@ -28,7 +28,7 @@ body {
 .mallet {
     position: absolute;
     bottom: 0;
-    right: 70px;
+    right: 150px;
     transform-origin: left;
     z-index: 1;
     transition: .1s ease-in;
@@ -37,13 +37,13 @@ body {
 .hole {
     position: absolute;
     bottom: 0;
-    right: 70px;
+    right: 150px;
 }
 
 .mole {
     position: absolute;
     bottom: 0;
-    right: 80px;
+    right: 160px;
     transform: translateY(100%);
     transition: .05s ease-in .1s;
 }
